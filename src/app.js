@@ -5,10 +5,6 @@ let calc_parser_feed = ''
 
 let memory = []
 
-function openBurgerMenu(){
-	document.getElementById('burger-menu').style.width = '80vw';
-}
-
 function ready(){
 	for (var i = ['0','1', '2', '3', '4', '5','6', '7', '8', '9', '-', '=', '+', '/', 'x', '.', '%', 'pm', 'sqrt', 'sqd', 'rec', 'c', 'ce', 'bs'].length - 1; i >= 0; i--) {
 		const id = ['0','1', '2', '3', '4', '5','6', '7', '8', '9', '-', '=', '+', '/', 'x', '.', '%', 'pm', 'sqrt', 'sqd', 'rec', 'c', 'ce', 'bs'][i];
