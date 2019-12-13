@@ -1,0 +1,20 @@
+{
+  "name": "kalc",
+  "version": "0.0.1",
+  "description": "basic calculator",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "-"
+  },
+  "keywords": [
+    "calculator",
+    "math",
+    "electron"
+  ],
+  "author": "George Guvamatanga",
+  "license": "MIT"
+}

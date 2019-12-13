@@ -1,0 +1,135 @@
+::-webkit-scrollbar {
+	display: none;
+}
+
+html {
+	margin: 0; padding: 0;
+	font-family: "Segoe UI";
+	cursor: default;
+}
+
+.hidden { display: none; }
+
+#top-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100vw;
+	line-height: 75%;
+	border-bottom: 1px solid black;
+}
+
+#dragger {
+	-webkit-app-region: drag;
+}
+
+#view {
+	height: 100px;
+	width: 100vw;
+	background: white;
+	position: absolute;
+	top: 50px;
+	left: 0;
+}
+
+#main-view {
+	position: absolute;
+	width: 100vw;
+	height: calc(100% - 150px);
+	background: white;
+	box-shadow: 
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+	left: 0;
+}
+
+table {
+	padding: 0; margin: 0;
+}
+
+td {
+	width: 50rem;
+	height: 46px;
+	color: black;
+	text-align: center;
+}
+
+td:hover {
+	background: black;
+	color: lightgray;
+}
+
+.dark {
+	background: #eee;
+	color: black;
+}
+
+#calc-display {
+	padding: 10px	;
+}
+
+.super {
+	vertical-align: super;
+}
+
+.sub {
+	vertical-align: sub;
+}
+
+.background-white {
+	background: white;
+	border-top: 1px solid lightgray;
+}
+
+.background-light-lightgray {
+	background: royalblue; color: white;
+}
+
+.background-light-lightgray:hover {
+	background: skyblue; color: black;
+}
+
+.system-menu {
+	position: absolute;
+	right: 0;
+	height: 50px;
+}
+
+.system-menu > li {
+	display: inline;
+	font-size: 25px;
+	padding: 10px;
+	margin: 0;
+}
+
+.system-menu > li:hover {
+	background: black;
+	color: white;
+}
+
+#burger-menu-opener {
+	font-size: 25px;
+	padding: 10px 0px;
+	position: absolute;
+	top: 7px;
+	left: 8px;
+}
+
+#dragger {
+	width: calc(100vw - 170px);
+	height: 50px;
+	position: absolute;
+	left: 50px;
+}
+
+#burger-menu {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0; height: 100vh;
+	background: white;
+	box-shadow: 0 0 10px 0px black;
+	transition: 1s;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalc</title>
+	<link rel="stylesheet" type="text/css" href="src/style.css">
+</head>
+<body>
+
+	<div id="top-bar">
+		<div id="burger-menu-opener" onclick="openBurgerMenu()">≡</div>
+		<div id="dragger"></div>
+		<ul class="system-menu">
+			<li onclick="minimize()">-</li>
+			<li onclick="">+</li>
+			<li onclick="exit()">×</li>
+		</ul>
+	</div>
+	<div id="view">
+		<h1 id="calc-display" align="right">...</h1>
+	</div>
+	<div id="main-view">
+		<table cellspacing="0" id="calc-table">
+			<tr>
+				<td class="background-white" id="%">(</td>
+				<td class="background-white" id="sqrt">)</td>
+				<td class="background-white" id="sqd">CM</td>
+				<td class="background-white" id="rec">MEM</td>
+			</tr>
+			<tr>
+				<td class="background-white" id="%">%</td>
+				<td class="background-white" id="sqrt">√</td>
+				<td class="background-white" id="sqd"><i>x</i><i class="super">2</i></td>
+				<td class="background-white" id="rec"><i class="super">1</i>/<i class="sub">x</i></td>
+			</tr>
+			<tr>
+				<td class="background-light-lightgray" id="pm">±</td>
+				<td class="background-light-lightgray" id="c">C</td>
+				<td class="background-light-lightgray" id="ce">CE</td>
+				<td class="background-light-lightgray" id="bs" style="font-family: wingdings;">Õ</td>
+			</tr>
+			<tr>
+				<td id="7">7</td>
+				<td id="8">8</td>
+				<td id="9">9</td>
+				<td id="/" class="dark">/</td>
+			</tr>
+			<tr>
+				<td id="4">4</td>
+				<td id="5">5</td>
+				<td id="6">6</td>
+				<td id="x" class="dark">×</td>
+			</tr>
+			<tr>
+				<td id="1">1</td>
+				<td id="2">2</td>
+				<td id="3">3</td>
+				<td id="-" class="dark">-</td>
+			</tr>
+			<tr>
+				<td id=".">.</td>
+				<td id="0">0</td>
+				<td id="=">=</td>
+				<td id="+" class="dark">+</td>
+			</tr>
+
+		</table>
+	</div>
+
+	<div id="burger-menu">
+
+	</div>
+
+	<script type="text/javascript" src="src/app.js"></script>
+
+</body>
+</html>
